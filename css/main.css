@@ -1,7 +1,4 @@
 
-
-
-
 .btn-outline-success{
 	color: #28a745;
     background-color: transparent;
@@ -39,4 +36,42 @@ p {
     line-height: 1.1;
 }
 
+.h2{
+	font-size: 2rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
 
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%; 
+    max-width: 100%;
+    padding-right: -100px;
+    padding-left: 100px;
+}
+
+.ps-boxshadow {
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.24), 0 1px 2px 0 rgba(0, 0, 0, 0.50);
+}
+
+.boxed {
+    border-radius: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+
+.boxed.boxed--lg {
+    padding: 25px;
+
+}
+
+#sidebar, .sidebar {
+	float: right;
+	overflow: hidden;
+	width: 1000px;
+}
