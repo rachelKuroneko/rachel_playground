@@ -1,2 +1,24 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+
+
+
+Notes for references: 
+
+
+
+.navbar, .dropdown-menu{
+	background: black;
+}
+.navbar-brand, .nav-link, .dropdown-item{
+	color: white !important;
+}
+#main-container{
+	margin-top:50px; 
+}
+
+
+
+difference between padding and margins 
