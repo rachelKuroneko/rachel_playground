@@ -8,12 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+    <link href="https://www.pubspy.com.au/css/pubspy-custom.css" rel="stylesheet">
+    <link href="https://www.pubspy.com.au/css/theme.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/less/pagination.less" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/less/mixins/grid-framework.less" rel="stylesheet">
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 
   </head>
   
@@ -23,7 +32,7 @@
 
   <!--This is where the main big big container begins-->
 
-    <div class="container">
+    <div class="container-fluid">
     	<div class= "column">
     		
     		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -150,7 +159,9 @@
 
 		    		<!--This part is the form, where all the radio buttons are located-->
 
-		    		<div class="ps-boxshadow boxed boxed--lg bg--white">
+
+
+		    		<div class="cover ps-boxshadow boxed boxed--lg bg--white">
                     	
 
 		    			<form class="form--horizontal" action="/#search_results" method="GET">
@@ -294,7 +305,6 @@
                     </div>
 
 
-
 		    	</div>
 
 		    	<!--right content-->
@@ -358,15 +368,431 @@
 
 						<!--Testing ends here-->
 
-
-				
 	    </div>
 	</div>
 
 
+	<!--This is another section-->
+
+	<section class="text-left space--xs bg--white" id="search_results">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9  mobile-hide "><!-- col-sm-9 -->
+
+                <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 20px;">
+                    <div>
+                        <img src="/img/pubspy-black-tm.png" style="width: 200px; margin-right: 20px;">
+                    </div>
+                    <div>
+                                            <h3 style="margin-bottom: 0;">Favourites</h3> <!--  class="search-results-h2" -->
+                                        </div>
+                </div>
+
+<!-- Formerly -->
+                <!-- <h2 class="search-results-h2">
+                                    Pubspy Favourites
+                                </h2> -->
+
+                <div class="container">
+                        <div class="row">
+                                                                                    <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/-7833">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://s3-ap-southeast-2.amazonaws.com/pubspy-bucket/oldPubs/pj.jpg')"></div>
+                                        <!-- <img src="https://s3-ap-southeast-2.amazonaws.com/pubspy-bucket/oldPubs/pj.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3></h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>74 Church Street         Parramatta</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/-7833" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                                                        <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/150-east-riverside-bar-1">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/2/img2017-07-12T11%3A38%3A18%2B00%3A00.jpg')"></div>
+                                        <!-- <img src="https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/2/img2017-07-12T11%3A38%3A18%2B00%3A00.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3>150 East Riverside Bar Restaurant</h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>150 Great Eastern Hwy                            Ascot</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/150-east-riverside-bar-1" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                                                        <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/185-3">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/3/img2017-07-12T11%3A48%3A26%2B00%3A00.jpg')"></div>
+                                        <!-- <img src="https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/3/img2017-07-12T11%3A48%3A26%2B00%3A00.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3>185 Bar</h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>The Chifley On The Terrace 185 St Georges Terrace            Perth</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/185-3" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                                                        <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/19th-hole-restaurant-1">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/6/img2017-07-12T11%3A59%3A11%2B00%3A00.jpg')"></div>
+                                        <!-- <img src="https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/6/img2017-07-12T11%3A59%3A11%2B00%3A00.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3>19th Hole Restaurant The</h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>565 Pioneer Drive     Herbert</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/19th-hole-restaurant-1" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                                                        <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/1st-choice-liquor-2">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/7/img2017-07-12T12%3A03%3A17%2B00%3A00.jpg')"></div>
+                                        <!-- <img src="https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/7/img2017-07-12T12%3A03%3A17%2B00%3A00.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3>1st Choice Liquor Superstore</h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>133 Herries Street       Toowoomba</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/1st-choice-liquor-2" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                                                        <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/1st-choice-liquor-superstore-1">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/8/img2017-07-12T12%3A05%3A51%2B00%3A00.jpg')"></div>
+                                        <!-- <img src="https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/8/img2017-07-12T12%3A05%3A51%2B00%3A00.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3>1st Choice Liquor Superstore</h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>Cnr  Road &amp; Clifton Street     Unley</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/1st-choice-liquor-superstore-1" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                                                        <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/-14548">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/11058/img2017-07-12T12%3A08%3A34%2B00%3A00.jpg')"></div>
+                                        <!-- <img src="https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/11058/img2017-07-12T12%3A08%3A34%2B00%3A00.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3>1two3</h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>The Phoenician Resort Surf Parade         Broadbeach</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/-14548" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                                                        <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/21st-century-dance-club">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://s3-ap-southeast-2.amazonaws.com/pubspy-bucket/public/pubs/10/img2017-06-13T03%3A36%3A34%2B00%3A00.jpg')"></div>
+                                        <!-- <img src="https://s3-ap-southeast-2.amazonaws.com/pubspy-bucket/public/pubs/10/img2017-06-13T03%3A36%3A34%2B00%3A00.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3>21st Century Dance Club</h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>1 Davey Street     Frankston</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/21st-century-dance-club" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                               <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/3-monkeys-1">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/12/img2017-07-22T00%3A42%3A13%2B00%3A00.jpg')"></div>
+                                        <!-- <img src="https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/12/img2017-07-22T00%3A42%3A13%2B00%3A00.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3>3 Monkeys Tavern</h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>4 Lincoln                Wodonga</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/3-monkeys-1" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                                                        <div class="col-sm-6 listing-item-block">
+                                <a href="https://www.pubspy.com.au/pub/3-weeds-bar-and-1">
+                                    <div class="feature feature-1">
+                                                                            
+                                        <div style="height: 320px;width:100%;background-size: cover;background-position: center;background-repeat: no-repeat;background-image: url('https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/13/img2017-07-22T00%3A50%3A25%2B00%3A00.jpg')"></div>
+                                        <!-- <img src="https://pubspy-bucket.s3-ap-southeast-2.amazonaws.com/public/pubs/13/img2017-07-22T00%3A50%3A25%2B00%3A00.jpg" style="width:100%; max-height: 320px"/> -->
+                                    
+                                    <div class="feature__body boxed boxed--lg boxed--border">
+                                        <!-- added div --><!-- <div style="min-height: 75px;"></div> -->
+                                            <h3>3 Weeds Bar And Restaurant</h3>
+                                        
+                                        <!-- <div style="min-height: 52px;"></div> -->
+                                            <p>The Rose Shamrock &amp; Thistle 197 Evans Street              Rozelle</p>
+                                        
+                                        <a href="https://www.pubspy.com.au/pub/3-weeds-bar-and-1" class="card-details-button">
+                                            All the details <span class="details-chevrons">>>></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                </a>
+                                <!--end feature-->
+                            </div>
+                                                    </div>
+                        <!--end of row-->
+                        <div class="row text-center">
+                            <div class="col-sm-12"><ul class="pagination">
+        
+                    <li class="disabled"><span>&laquo;</span></li>
+        
+        
+                    
+            
+            
+                                <li class="active"><span>1</span></li>
+                                        <li><a href="https://www.pubspy.com.au?page=2">2</a></li>
+                                        <li><a href="https://www.pubspy.com.au?page=3">3</a></li>
+                                        <li><a href="https://www.pubspy.com.au?page=4">4</a></li>
+                                        <li><a href="https://www.pubspy.com.au?page=5">5</a></li>
+                                        <li><a href="https://www.pubspy.com.au?page=6">6</a></li>
+                                        <li><a href="https://www.pubspy.com.au?page=7">7</a></li>
+                                        <li><a href="https://www.pubspy.com.au?page=8">8</a></li>
+                            
+									<li class="disabled"><span>...</span></li>
+
+            
+            
+                                <li><a href="https://www.pubspy.com.au?page=1443">1443</a></li>
+                                        <li><a href="https://www.pubspy.com.au?page=1444">1444</a></li>
+                                                        
+        
+                    <li><a href="https://www.pubspy.com.au?page=2" rel="next">&raquo;</a></li>
+            </ul>
+</div>
+                        </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-3"><!-- col-sm-3 -->
+                <!-- <h4 class="just-updated-header">PubSpy&trade; just updated</h4> -->
+
+<div class="just-updated-logo">
+    <div>
+        <img src="/img/pubspy-black-tm.png" style="width: 200px;">
+    </div>
+    <div>
+        <h3>Just Updated</h3>
+    </div>
+</div>
+
+
+
+    
+    <div class="bg--secondary boxed ps-boxshadow"><!--  boxed--border -->
+        <form action="https://www.pubspy.com.au" class="form--active">
+            <h6 class="type--uppercase">Happy hour specials</h6>
+            <div class="col-sm-8">
+                                    <input type="text" name="seach_text" placeholder="Postcode" />
+                
+                <input type="hidden" name="search_by" value="postcode" />
+                <input type="hidden" name="search_type" value="type_happy" />
+            </div>
+   
+            <div class="col-sm-4">
+                <button type="submit" class="btn btn--primary type--uppercase">Go</button>
+            </div>
+        </form>
+    </div>
+
+    
+    <div class="bg--secondary boxed ps-boxshadow"><!--  boxed--border -->
+        <form action="https://www.pubspy.com.au" class="form--active">
+            <h6 class="type--uppercase">Best meal deals</h6>
+            <div class="col-sm-8">
+                                    <input type="text" name="seach_text" placeholder="Postcode" />
+                            </div>
+                <input type="hidden" name="search_by" value="postcode" />
+                <input type="hidden" name="search_type" value="type_voucher" />
+
+
+
+            <div class="col-sm-4">
+                    <button type="submit" class="btn btn--primary type--uppercase">Go</button>
+            </div>
+
+
+<!-- NEW BELOW -->
+            <h6 class="type--uppercase" style="margin-bottom: 0px;">Cuisine type</h6>
+            <div class="col-sm-8">
+                <select>
+                    <option>All cuisines</option>
+                    <option>Manual Entry 1</option>
+                    <option>Manual Entry 2</option>
+                    <option>Manual Entry 3</option>
+                    <option>Manual Entry 4</option>
+                </select>
+            </div>
+            <div class="col-sm-4">
+                    <button type="submit" class="btn btn--primary type--uppercase">Go</button>
+            </div>
+<!-- END NEW -->
+
+
+        </form>
+    </div>
+        <div class="bg--secondary boxed ps-boxshadow"><!-- boxed--border -->
+        <form action="https://www.pubspy.com.au" class="form--active">
+            <h6 class="type--uppercase">Entertainment</h6>
+            <div class="col-sm-8">
+                                    <input type="text" name="seach_text" placeholder="Postcode" />
+                  
+                <input type="hidden" name="search_by" value="postcode" />
+                <input type="hidden" name="search_type" value="type_gig" />
+            </div>
+   
+            <div class="col-sm-4">
+                    <button type="submit" class="btn btn--primary type--uppercase">Go</button>
+            </div>
+            
+        </form>
+    </div>
+
+                </div>
+
+
+
+
+        </div>
+        <!--end of row-->
+
+    </div>
+    <!--end of container-->
+</section>
+
+
+
+
+
+
+
+<!--This is just a horinzontal line made to divide between the top and the bottom page-->
+<hr>
+
+
+<section class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="cta">
+                <h2 class="cta-h2">Remember the name - PubSpy.com.au</h2>
+                <p class="lead">
+                    <a class="cta-sub-heading" href="/portal/register" target="_blank">Have a Licensed Venue? Increase your Business by Advertising with us.</a></p>
+                <div class="location-btn-row text-center">
+                    <p><strong>Stay safe - Leave the car at home - Take it easy and enjoy</strong></p>
+                    <p><strong>How to get there and home safely.</strong></p>
+                    <div>
+                        <a target="_blank" href="https://www.uber.com" class="location-uber">Uber</a>
+                        <a target="_blank" href="http://www.blackandwhitecabs.com.au/" class="location-taxi">Taxi Services</a>
+                    </div>
+                </div><!-- location button row -->
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+
+<section class="text-center bg--tertiary" style="background-color: #E4E3E7;">
+
+</section>
+
+
+
 	<!--This is where the footer is-->
 
-	<footer class="footer-6 unpad--bottom  bg--dark">
+	<div class="container-fluid">
+
+	<footer class="footer-6 unpad--bottom bg--dark">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
@@ -439,8 +865,14 @@
             </footer>  <!--This is the end of the footer-->
 
 
+</div>
+
 
 </div>  <!--This is where the main container ends-->
+
+<a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
+            <i class="fa fa-angle-up"></i>
+        </a>
 
 
 
